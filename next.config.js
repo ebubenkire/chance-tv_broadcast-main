@@ -6,6 +6,9 @@ const nextConfig = {
   },
   basePath: '/chance-tv_broadcast-main',
   assetPrefix: '/chance-tv_broadcast-main/',
+  trailingSlash: true,
+  reactStrictMode: true,
+  swcMinify: true,
 }
 
 module.exports = nextConfig 
